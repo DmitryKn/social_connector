@@ -28,6 +28,6 @@ app.use('/api/posts', posts);
 app.use(passport.initialize());
 require('./config/passport.js')(passport);
 
-const port = process.env.PORT || 3000;
-
+//Server port listening
+const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server running on port ${port}`));
