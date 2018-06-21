@@ -7,7 +7,7 @@ img {
   background: url('./img/showcase.jpeg') no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   margin-top: -24px;
   margin-bottom: -50px;
 }
